@@ -5,7 +5,7 @@
     <parent>
         <artifactId>first.maven</artifactId>
         <groupId>qhv.alex</groupId>
-        <version>1.0.1</version>
+        <version>1.0.2-SNAPSHOT</version>
     </parent>
 
     <artifactId>service</artifactId>
@@ -14,7 +14,7 @@
         <dependency>
             <groupId>qhv.alex</groupId>
             <artifactId>database</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.2-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
