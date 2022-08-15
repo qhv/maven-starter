@@ -183,7 +183,7 @@
             <id>prod</id>
             <activation>
                 <file>
-                    <exists>${basedir}/t.txt</exists>
+<!--                    <exists>${basedir}/t.txt</exists>-->
                 </file>
             </activation>
             <properties>
