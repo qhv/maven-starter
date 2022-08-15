@@ -19,8 +19,7 @@
         <connection>scm:git:git@github.com:qhv/maven-starter.git</connection>
         <developerConnection>scm:git:git@github.com:qhv/maven-starter.git</developerConnection>
         <url>https://github.com/qhv/maven-starter</url>
-      <tag>first.maven-1.0.0</tag>
-  </scm>
+    </scm>
 
     <properties>
         <app.env>dev</app.env>
@@ -94,6 +93,7 @@
                         </execution>
                     </executions>
                 </plugin>
+
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-resources-plugin</artifactId>
@@ -116,6 +116,7 @@
                         </execution>
                     </executions>
                 </plugin>
+
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
